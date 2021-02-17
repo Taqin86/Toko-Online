@@ -1,0 +1,23 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+// menambahkan jarak di atas antara navbar dan content
+.page-content {
+  margin-top: 100px;
+}
+
+// footer mengasih garis dan warna paragraf
+footer {
+  border-top: 1px solid #e4e4e4;
+  margin-top: 150px;
+
+  p {
+    color: #979797;
+  }
+}
+
+// mengubah warna backround
+.form-control {
+  background-color: #f3f3f3;
+}
