@@ -10839,4 +10839,78 @@ footer p {
 .form-control {
   background-color: #f3f3f3;
 }
+
+.navbar-store {
+  padding-top: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-store {
+    background-color: #fff !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-store .nav-item .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.navbar-store .profil-picture {
+  max-height: 45px;
+}
+
+.navbar-store .cart-badge {
+  display: inline-block;
+  min-width: 2em;
+  padding: 3em;
+  border-radius: 10px;
+  text-align: center;
+  background: #29a867;
+  color: #fefefe;
+  margin-left: -10px;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+
+.page-home h5 {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.page-home .store-trend-categories {
+  margin-top: 30px;
+}
+
+.page-home .store-new-product {
+  margin-top: 10px;
+}
+
+.component-categories {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.component-categories:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  text-decoration: none;
+}
+
+.component-categories .categories-text {
+  color: #0c0d36;
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 12px;
+}
 /*# sourceMappingURL=main.css.map */
