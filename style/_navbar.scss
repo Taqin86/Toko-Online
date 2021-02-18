@@ -34,11 +34,10 @@
     color: #fefefe;
     margin-left: -10px;
   }
-
-  // animasi saat di scroll
-  .navbar-fixed-top.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
 }
 // END: Navbar
+// animasi saat di scroll
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
