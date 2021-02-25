@@ -1,60 +1,88 @@
 .page-details {
-    // START: Style Gallery
-    .store-gallery {
-        margin-top: 20px;
+  h5 {
+    font-weight: normal;
+    font-size: 18px;
+    color: #0c0d36;
+  }
 
-        img {
-            border-radius: 10px;
-        }
+  // START: Style Gallery
+  .store-gallery {
+    margin-top: 20px;
 
-        .thumbnail-image {
-            margin-bottom: 20px;
-            border: 2px solid transparent;
-
-            &:hover,
-            &.active {
-                border: 2px solid #ff7158;
-            }
-        }
+    img {
+      border-radius: 10px;
     }
-    // END: Style Gallery
 
-    // START: Style Heading
-    .store-heading  {
-        margin-bottom: 10px;
+    .thumbnail-image {
+      margin-bottom: 20px;
+      border: 2px solid transparent;
 
-        h1 {
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 36px;
-            color: #0c0d36;
-            margin-bottom: 0px;
-        }
-
-        .owner {
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 21px;
-            color: #979797;
-            margin-bottom: 8px;
-        }
-
-        .price {
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 27px;
-            color: #FF7158;
-            margin-bottom: 10px;
-        }
+      &:hover,
+      &.active {
+        border: 2px solid #ff7158;
+      }
     }
-    // END: Style Heading
+  }
+  // END: Style Gallery
 
-    // START: Style Description
-    .store-description {
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 180%;
-        color: #525252;
+  // START: Style Heading
+  .store-heading {
+    margin-bottom: 10px;
+
+    h1 {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 36px;
+      color: #0c0d36;
+      margin-bottom: 0px;
     }
-    // END: Style Description
+
+    .owner {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      color: #979797;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #ff7158;
+      margin-bottom: 10px;
+    }
+  }
+  // END: Style Heading
+
+  // START: Style Description
+  .store-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #525252;
+  }
+  // END: Style Description
+
+  // START: Style Store Review
+  .store-review {
+    .media {
+      img {
+        max-width: 50px;
+      }
+    }
+    .media-body {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 180%;
+      color: #525252;
+      margin-bottom: 20px;
+    }
+    h5 {
+      font-weight: 500;
+      font-size: 16px;
+      color: #0c0d36;
+    }
+  }
+  // END: Style Store Review
 }
