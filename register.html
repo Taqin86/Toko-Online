@@ -63,7 +63,7 @@
     <!-- END: Navigation Bar -->
 
     <!-- STAT: page login -->
-    <div class="page-content page-auth">
+    <div class="page-content page-auth" id="register">
       <div class="section-store-auth" data-aos="fade-up">
         <div class="row align-items-center justify-content-center row-login">
           <div class="col-lg-4">
@@ -173,6 +173,36 @@
     <script>
       AOS.init();
     </script>
+    <script src="/vendor/vue/vue.js"></script>
+    <!-- START: Vue toasted / notif -->
+    <script src="https://unpkg.com/vue-toasted"></script>
+    <script>
+      Vue.use(Toasted);
+
+      var register = new Vue ({
+        el: '#register',
+        mounted() {
+          AOS.init();
+          this.$toasted.error(
+            "Maaf, tampaknya email sudah terdaftar pada sistem kami.",
+            {
+              position: "top-center",
+              className: "rounded",
+              duration: 1000
+            }
+          );
+        },
+        data: {
+          name: "Angga Rizqi Sett",
+          email: "kamujagoan@gmail.id",
+          password: "",
+          is_store_open: true,
+          store_name: "",
+        }
+      })
+    </script>
+    
+    <!-- END: Vue toasted / notif -->
     <script src="/script/navbar-scroll.js"></script>
   </body>
 </html>
