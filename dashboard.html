@@ -154,5 +154,13 @@
     <script>
       AOS.init();
     </script>
+    <!-- START:Menu Toggle -->
+    <script>
+      $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+    <!-- END:Menu Toggle -->
   </body>
 </html>
