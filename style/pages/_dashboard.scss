@@ -104,24 +104,34 @@
       color: #9191a9;
     }
 
-    // START: Dashboard Transaction - Navigation Tabs Styling 
+    // START: Dashboard Transaction - Navigation Tabs Styling
     .nav-pills {
       .nav-link {
         font-weight: normal;
         font-size: 18px;
-        color: #9191A9;
+        color: #9191a9;
         border-radius: 0;
 
         &.active {
           font-weight: 500;
           font-size: 18px;
-          color: #0C0D36;
-          border-bottom: 2px solid #0C0D36;
+          color: #0c0d36;
+          border-bottom: 2px solid #0c0d36;
           background: none;
         }
       }
     }
-    // END: Dashboar Transaction - Navigation Tabs Styling 
+    // END: Dashboar Transaction - Navigation Tabs Styling
 
+    // START: Style Gallery di Product Detail
+    .gallery-container {
+      .delete-gallery {
+        display: block;
+        position: absolute;
+        top: -10px;
+        right: 0;
+      }
+    }
+    // END: Style Gallery di Product Detail
   }
 }
